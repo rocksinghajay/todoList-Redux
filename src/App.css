@@ -1,0 +1,93 @@
+.root {
+ 
+  display: flex;
+  justify-content: inherit;
+  align-items: center;
+  flex-direction: column;  
+}
+
+.list-item {
+  
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: auto;
+}
+.ul-styling{
+  list-style: none
+
+}
+input[type="checkbox"] {
+  margin-left: 14px;
+}
+h5 {
+  padding-right: 58px;
+  padding-left: 49px;
+}
+body{
+  background:lightgray;
+  font-family: 'Courier New', 'Courier', 'monospace';
+}
+button{
+  padding: 10px 40px;
+  margin: 0 30px;
+  border: none;
+  border-bottom: 3px solid black;
+  background:black;
+  color: white;
+  border-radius: 5px;
+  font-family: 'Courier New', 'Courier', 'monospace';
+  font-size: 20px;
+  align-content: center;
+  
+}
+button{
+  
+  transition: 0.7s ease-in-out;
+  
+}
+button:hover{
+  background: white;
+  color:black;
+}
+h3{
+  font-family: 'Courier New', 'Courier', 'monospace';
+  font-size: 72px;
+  color: crimson;
+}
+
+h3{
+  transition: 0.7s ease-in-out;
+  }
+  h3:hover{
+    color: black;
+ }
+input[type="text"] {
+  height: 31px;
+  width: 186px;
+  font-size: 20px;
+  font-family: monospace;
+  border: none;
+  border-bottom: 2px solid black;
+  border-radius: 3px;
+  color: black;
+}
+input[type="text"]:hover{
+  border: none;
+  
+}
+.complete-button {
+  background: black;
+  margin-left: -2px;
+  width: 334px;
+}
+.complete-button:hover {
+  background: white;
+  color: black;
+  
+}
+.complete-button {
+  
+  transition: 0.7s ease-in-out;
+  
+}
